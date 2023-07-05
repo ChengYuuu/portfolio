@@ -1,0 +1,83 @@
+{
+  "jobs": [
+    {
+      "title": "Frontend Developer",
+      "company": "ExpressVPN",
+      "location": "Singapore",
+      "startDate": "January 2022",
+      "accomplishments": [
+        "Created new UI optimisations on customer facing website to improve user experience",
+        "Conducted A/B testing on webpage to improve website conversion",
+        "Help improve understanding of user behavior across webpage by implementing Google Analytics events",
+        "Initiated and drove typescript adoption by migrating existing codebase to typescript"
+      ]
+    },
+    {
+      "title": "Technology Associate",
+      "company": "Bank of Singapore Ltd",
+      "location": "Singapore",
+      "startDate": "June 2020",
+      "endDate": "January 2022",
+      "accomplishments": [
+        "Created scripts to help auto generate reports, using SQL",
+        "Developed shell scripts to migrate existing users to a new service",
+        "Improved backend API services, in Java"
+      ]
+    },
+    {
+      "title": "Software Engineering, Intern",
+      "company": "Accenture Pte Ltd",
+      "location": "Singapore",
+      "startDate": "August 2019",
+      "endDate": "January 2020",
+      "accomplishments": [
+        "Developed application monitoring dashboard, using Zabbix, ReactJS & Python, for internal users tomonitor system health and metrics"
+      ]
+    },
+    {
+      "title": "Software Engineering, Intern",
+      "company": "Sunday Ins Ltd",
+      "location": "Thailand",
+      "startDate": "June 2019",
+      "endDate": "August 2019",
+      "accomplishments": [
+        "Improved existing web application, in ReactJS & Ruby, to allow users to manage data",
+        "Implemented backend authentication, in Ruby"
+      ]
+    },
+    {
+      "title": "Software Engineering, Intern",
+      "company": "Sunday Ins Ltd",
+      "location": "Thailand",
+      "startDate": "December 2018",
+      "endDate": "January 2019",
+      "accomplishments": [
+        "Built an Android application to send push notifications to delivery drivers",
+        "Refactored existing backend code, in Ruby, to accommodate android application",
+        "Updated existing web application’s UI, in ReactJS, to display data received from android application",
+        "Refactored code in existing mobile applications, in React Native, to be in sync with updated backend"
+      ]
+    },
+    {
+      "title": "Data Operations, Intern",
+      "company": "Eyeota Pte Ltd",
+      "location": "Singapore",
+      "startDate": "June 2018",
+      "endDate": "August 2018",
+      "accomplishments": [
+        "Developed Python scripts to automate daily advertising keywords categorisation"
+      ]
+    },
+    {
+      "title": "Software Engineering, Intern",
+      "company": "Daniel Wireless Software Pte Ltd",
+      "location": "Singapore",
+      "startDate": "September 2017",
+      "endDate": "May 2018",
+      "accomplishments": [
+        "Build new interactive frontend for android applications",
+        "Implemented unit testing for existing android applications using Espresso test framework"
+      ]
+    }
+  ]
+}
