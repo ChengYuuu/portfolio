@@ -1,0 +1,20 @@
+---
+export interface Props {
+	title: string;
+	startDate: string;
+	endDate?: string;
+	descriptions: string[];
+}
+
+const { title, startDate, endDate, descriptions } = Astro.props;
+---
+
+<div class="block p-6 bg-white border border-gray-200 rounded shadow">            
+	<h3 class="flex items-center mb-0.5 text-lg font-bold">{title}</h3>
+	<time class="block mb-2 text-sm font-normal leading-none text-slate-600">{startDate} - {endDate ? endDate : "Present"}</time>
+	<ul class="list-disc list-outside ml-4">
+		{descriptions.map((accomplishment, index, {length}) => (
+			<li class="text-base font-normal text-slate-950 mb-1">{accomplishment}</li>
+		))}
+	</ul>
+</div>

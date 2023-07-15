@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "title": "Cerchia Prediction Market",
+      "startDate": "May 2021",
+      "endDate": "March 2022",
+      "descriptions": [
+        "Website that allows user to be rewarded by making predictions on different events. Powered by Zilliqa Blockchain.",
+        "Worked in a team of 2. I was responsible for building the Frontend & Backend of the website. The website was built using technologies such as ReactJS, Typescript, GraphQL and Postgrsql."
+      ]
+    }
+  ]
+}

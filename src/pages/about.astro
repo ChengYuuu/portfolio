@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import JobItem from '../components/JobItem.astro';
+import experience from "../data/experience.json";
+
+---
+
+<Layout title="About me">
+	<section class="py-8 bg-slate-200">
+		<div class="container px-4 mx-auto flex flex-col">
+			<h2 class="font-bold text-4xl text-indigo-600">Work Experience</h2>
+			<ol class="ml-2 mt-4 relative border-l-4 border-red-600">
+				{experience.jobs.map((job, index, { length }) => (
+					<JobItem
+						firstJob={length - 1 === index}
+						title={job.title}
+						company={job.company}
+						location={job.location}
+						startDate={job.startDate}
+						endDate={job.endDate}
+						accomplishments={job.accomplishments}
+					/>
+				))}
+			</ol>
+		</div>
+	</section>
+</Layout>
